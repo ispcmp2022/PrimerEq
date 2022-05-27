@@ -1,7 +1,9 @@
+import suma as s
+import resta as r
+
 a=2
 b=3
-c=a+b
-print("c vale: "+str(c))
-d=a-b
-print("d vale: "+str(d))
+
+print("c vale: "+str(s.suma(a,b)))
+print("d vale: "+str(r.resta(a,b)))
 print("fin")
